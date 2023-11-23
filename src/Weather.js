@@ -40,7 +40,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather bg-transparent shadow-lg">
-        <form onSubmit={handleSubmit}>
+        <form className="form-fluid" onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-9">
               <input
