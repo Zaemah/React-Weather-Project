@@ -1,4 +1,5 @@
 body{
-    background-image: url(/public/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4 ) ,url(/public/background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
